@@ -1,0 +1,166 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'FreeMono', sans-serif;
+}
+
+header {
+    display: flex;
+    background: rgb(17, 17, 17);
+    width: 100%;
+    height: 75px;
+    margin: auto;
+    align-items: center;
+}
+
+.logo-container {
+    flex: 1;
+    justify-items: flex-end;
+    margin-left: 25vw;
+    margin-right: 0;
+}
+
+nav {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex: 4;
+    list-style: none;
+}
+
+.nav-links-1 {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content:space-around;
+    margin-right: 10vw;
+    list-style: none;
+}
+
+.nav-links-2 {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content:space-around;
+    margin-right: 10vw;
+    list-style: none;
+}
+
+.nav-link-1 {
+    color: whitesmoke;
+    text-decoration: none;
+    font-family: 'FreeMono', sans-serif;
+    font-size: 10pt;
+}
+
+.nav-link-2 {
+    color: gray;
+    text-decoration: none;
+    font-family: 'FreeMono', sans-serif;
+    font-size: 8pt;
+
+}
+
+.space {
+    position: relative;
+    width: 100%;
+    object-fit: fill;
+    margin: 0;
+}
+
+.opaqueBox {
+    position: absolute:
+    display: flex;
+    background-color: rgb(17, 17, 17, .4);
+    width: 100%;
+    height: 200px;
+    margin-top: 0px;
+}
+
+footer {
+    display: flex;
+    flex:1;
+    background: rgb(17, 17, 17);
+    width: 100%;
+    height: 50px;
+    margin: auto;
+    align-items: center;
+}
+
+.logo-container2 {
+    position: relative;
+    flex: 0;
+    justify-items: flex-end;
+    margin-left: 25vw;
+    margin-right: 0;
+    object-fit: scale-down;
+}
+
+.nav-links-3 {
+    position: relative;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content:space-around;
+    margin-right: 30vw;
+    list-style: none;
+}
+
+.nav-link-3 {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 8pt;
+}
+
+.copyright {
+    position: relative;
+    display: flex;
+    flex: 1;
+    color: gray;
+    font-size: 8pt;
+    justify-content: flex-start;
+}
+
+.StarlinkTxt {
+    position: relative;
+    display: flex;
+    flex: 1;
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 20pt;
+    font-weight: 700;
+    margin-left: 27vw;
+    align-content: center;
+}
+
+.sec1 {
+    position: relative;
+    display: flex;
+    flex: 1;
+    color: whitesmoke;
+    justify-content: space-evenly;
+}
+
+.box {
+    position: relative;
+    display: flex;
+    flex: 1;
+    color: whitesmoke;
+    margin: 20vh;
+    padding: 20px;
+    border: 5px, solid, black;
+
+}
+
+.text1,
+.text2,
+.text3 {
+    color: black;
+    text-decoration: none;
+    word-wrap:normal ;
+
+}
